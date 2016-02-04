@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict'
+
+c = require("skilstak-colors")
+
+var printmulti = funtion (text) {
+  console.log(c.multi("Hello " + text + "!"));
+}
+
+var firstArg = process.args[2];
+printMulti(first);
